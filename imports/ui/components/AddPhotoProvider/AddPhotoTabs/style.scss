@@ -1,0 +1,45 @@
+.AddPhotoTabs {
+  &__head {
+    margin-bottom: 2rem;
+    .MuiButtonBase-root {
+      padding: 0.5rem 1rem;
+      font-size: 1.2rem;
+      font-weight: 500;
+      min-width: 10rem;
+      border-radius: 0.25rem;
+      color: #ff0080;
+      background: #fff;
+      border: 1px solid #ff0080;
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+      &.Mui-selected {
+        color: #fff;
+        background-color: #ff0080;
+        border: 1px solid #ff0080;
+      }
+    }
+    .MuiTabs-flexContainer {
+      justify-content: flex-start;
+    }
+    .MuiTabs-indicator {
+      opacity: 0;
+    }
+  }
+  .MuiInputBase-adornedEnd {
+    background: #fff;
+  }
+  &__panel {
+    width: 50rem;
+    height: 35rem;
+   // border: 1px dashed #ff0080;
+    position: relative;
+    margin-bottom: 5rem;
+    &:hover {
+      .AddPhotoProvider__browsephoto {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+}

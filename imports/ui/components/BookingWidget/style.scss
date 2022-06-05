@@ -1,0 +1,23 @@
+.booking-list {
+  .info-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+.booking-widget {
+  &__btn {
+    position: relative;
+    .btn {
+      width: 100px;
+      height: 50%;
+      font-size: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:first-child {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

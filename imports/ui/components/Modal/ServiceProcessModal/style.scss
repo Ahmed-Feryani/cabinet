@@ -1,0 +1,32 @@
+.ServiceProcessModal {
+  &__body {
+    margin-bottom: 5rem;
+  }
+  &__action {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    width: 10rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ff0080;
+    &--cancel {
+      color: #ff0080;
+      background: #fff;
+      margin-right: 2rem;
+    }
+    &--confirm {
+      color: #fff;
+      background-color: #ff0080;
+      &:disabled {
+        background: rgba(#ff0080, 0.7);
+        &:hover {
+          cursor: not-allowed;
+        }
+      }
+    }
+  }
+}

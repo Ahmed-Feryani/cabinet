@@ -1,0 +1,17 @@
+.slider {
+  &__item {
+    margin-bottom: 100px;
+  }
+  .swiper-pagination-bullet {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    &.swiper-pagination-bullet-active {
+      border-color: transparent;
+      width: 30px;
+      height: 12px;
+      background: #869791;
+      border-radius: 30px;
+    }
+  }
+}

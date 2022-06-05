@@ -1,0 +1,24 @@
+.ServiceDetailsClient {
+  .opinion-box {
+    display: flex;
+    justify-content: space-between;
+    &__btn {
+      width: 49%;
+    }
+  }
+  .service-header {
+    margin-top: 8px;
+  }
+  .btn {
+    &--review {
+      margin-top: 2rem;
+    }
+    &--add-photo {
+      font-weight: 700;
+      display: block;
+      padding: 11px 25px;
+      border-radius: 5px;
+      text-transform: uppercase;
+    }
+  }
+}

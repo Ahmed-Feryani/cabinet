@@ -1,0 +1,50 @@
+.DetailsTabs {
+  .empty-view {
+    border: 1px dashed #ff0080;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__head {
+    margin-bottom: 2rem;
+    .MuiButtonBase-root {
+      padding: 0.5rem 1rem;
+      font-size: 1.2rem;
+      font-weight: 500;
+      min-width: 10rem;
+      border-radius: 0.25rem;
+      color: #ff0080;
+      background: #fff;
+      border: 1px solid #ff0080;
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+      &.Mui-selected {
+        color: #fff;
+        background-color: #ff0080;
+        border: 1px solid #ff0080;
+      }
+    }
+    .MuiTabs-flexContainer {
+      justify-content: flex-start;
+    }
+    .MuiTabs-indicator {
+      opacity: 0;
+    }
+  }
+  .MuiInputBase-adornedEnd {
+    background: #fff;
+  }
+  .review-box {
+    margin: 0;
+    width: 100%;
+    height: unset;
+  }
+  .service-description {
+    p {
+      font-size: 1.4rem;
+    }
+  }
+}

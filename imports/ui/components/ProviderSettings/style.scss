@@ -1,0 +1,25 @@
+.ProviderSettings {
+  &__browsephoto {
+    display: inline-block;
+    background: #ff0080;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 30px;
+    border-radius: 4px;
+    &:hover {
+      cursor: pointer;
+    }
+    &--upload {
+      margin-bottom: 1rem;
+    }
+  }
+  .submit-btn {
+    font-size: 2rem;
+  }
+  .jstinput {
+    &__action {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

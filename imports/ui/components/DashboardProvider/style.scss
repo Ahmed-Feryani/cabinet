@@ -1,0 +1,56 @@
+.dashboard {
+  &__icon {
+    margin-right: 2rem;
+    i {
+      font-size: 20px;
+    }
+  }
+  &__tab-panel {
+    flex: 1;
+  }
+  .review-box {
+    width: 100%;
+    height: unset;
+    margin: 0 0 2rem 0;
+  }
+  .mb-4 {
+    font-size: 16px;
+  }
+  .row {
+    //width: 100%;
+  }
+  .MuiTabs-root.MuiTabs-vertical {
+    border-right: unset;
+  }
+  &__head {
+    margin-bottom: 2rem;
+    .MuiButtonBase-root {
+      font-family: "Poppins", sans-serif;
+      font-size: 1.2rem;
+      font-weight: 500;
+      text-transform: initial;
+      width: 500px;
+      justify-content: flex-start;
+      color: #858585;
+      padding: 0;
+      border: 0;
+      min-height: unset;
+      font-size: 15px;
+      margin-bottom: 2rem;
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+      &.Mui-selected {
+        color: #ff0080;
+      }
+    }
+    .MuiTabs-flexContainer {
+    }
+    .MuiTabs-indicator {
+      opacity: 0;
+    }
+  }
+  .MuiInputBase-adornedEnd {
+    background: #fff;
+  }
+}
